@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>MIT college</title>
+</head>
+<body>
+    <nav class="sitebranding">
+        <div class="brand">
+            <div class="logo"><img src="download.jpg" alt="img"></div>
+            <a class="mit" href="mailto:mahakalgroupujjain@gmail.com" >✉ mitujjain</a></div>
+            <ul class="navlist">
+                <li><a href="https://www.facebook.com/MITGROUPUJJAIN/">facebook</a>
+                    <a href="https://www.instagram.com/mit_group_ujjain/">instagram</a>
+                    <a href="https://www.youtube.com/channel/UCRHkpHwt9bPgVFpUZRLLyhQ?view_as=subscriber">youtube</a>
+
+                </li>
+
+            </ul>
+       
+    </nav>
+    <article class="navtag">
+        <div class="home">
+            <a class="college" href="http://www.mitujjain.ac.in" >MIT GROUP OF INTITUTES UJJAIN</a>
+            <div class="space">
+            <ul class="pages">
+                <li><a href="C:\PROJECT1\home">Home</a>
+                    <a href="C:\PROJECT1\services.php">Services</a>
+                    <a id="btn" onclick="open()">Blogs</a>
+                    <a href="">Contact us</a>
+                    <a href="">About us</a>
+
+                </li>
+
+            </ul>
+        </div>
+        </div>
+    </article>
+
+    
+    <!-- Slideshow hai yaha se-->
+<div class="slideshow-container">
+
+  
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img class="photo" src="asd.jpeg" style="width:100%">
+      <div class="text">Mahakal Institute of Technology</div> 
+      </div>
+    
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img class="photo"  src="tyf.jpeg" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <!-- <img class="photo"  src="mit.jpg" style="width:100%"> -->
+      <iframe class="photo1"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.9324779173294!2d75.89329901477093!3d23.099567484914086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39630d60c0c92465%3A0x3814ed48f9340f85!2sMIT%20Group%20of%20Institutes%20%2C%20Ujjain%20%2C%20MP!5e0!3m2!1sen!2sin!4v1666700449237!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="text"></div> 
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+
+
+
+  <!-- javascript start -->
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+
+    
+    <section class="section1">
+        <h1 class="big"><center>»About us</center></h1>
+         <!-- <div class="about"><img src="collegemit.jpg"></div> -->
+        <div class="small"><p class="txt">MIT Group of Institutes, Ujjain has continued to preserve its founding spirit of 'Always Students First' and we cultivate students with the best Academic practices, theories, resources and standards that matches all over the world.</p>
+          <p class="txt">Committed to excellence in fundamental research as well as development of innovative technologies, MIT group, Ujjain offers a quality research training experience for its students.</p>           
+          <p class="txt">We focus not only on the career oriented growth but offers versatility and a positive value system in students that shapes their attitude and conduct thus providing them a strong foundation to face future challenges. We facilitates various training and placement activities for the students and ensure for their placements in the best of both National and International companies.
+        </p></div>
+        
+    </section>
+<script>
+  function open(){
+    document.getElementById("btn").style.display="block";
+  }
+</script>
+
+    <section class="section2">
+      <h1 class="blog"><center>»Blogs</center></h1>
+       <!-- <div class="about"><img src="collegemit.jpg"></div> -->
+      <div class="small"><p class="txt">MIT Group of Institutes, Ujjain, believes in the idea of 'Always Students First' and nurtures students with the best Academic practices, resources, theories and standards that match all over the world. We focus not only on career-oriented growth but offers versatility and a positive value system in students that shapes their attitude and conduct, thus providing them with a strong foundation to face future challenges. Our achievements We uphold the pride of first Ranking by IIRF among private engineering colleges of central India and six best placement awards. Being consistently ranked among the top institutions of the country, we strive hard to attain greater heights. With 20 years of academic excellence and more than 25 startups, we focus on producing result-oriented and innovative yet socially responsible individuals who will be eager to work for the greater good of humanity. Placements Every year, we conduct placement for students studying programs offered in Engineering & Technology, Management, Medicine & Health Sciences and Science & Humanities at MIT Institute Ujjain. The country's leading recruiters, such as Cognizant, TCS, HCL, Wipro, TATA Electronics, and many more, visit MIT campuses to hire the students for the job. As a result, more than 1128 students have got their dream job. The average package offered is around 3.5LPA, and the highest package is approximately 12 LPA. Our wide range of courses includes: B.Tech in CS ( Artificial intelligence and data science), Electronics & Communication Engineering, Information Technology Engineering, Computer Science & Engineering, Mechanical Engineering, Civil Engineering, Management Program (MBA), Pharmacy Program (B. Pharm. / M. Pharm.), Master of Computer Application (MCA), Professional UG Courses (B. Com (Honours) / B.Sc. (Computer Science)). We understand the need of the future, and for the first time in Ujjain, we are here with B.Tech CS( Artificial intelligence and data science) preparing today for tomorrow's technology. Our mission is to impart knowledge and educate students in science, technology, and other areas that will serve the nation in the 21st century. We stress on an equal opportunity, and transparency has been a significant contributing factor behind our emergence as an institute of national reputation. Our students are the emerging stars who will help transform tomorrow's world, employing game-changing skills with societal values and strong integrity and leading to an all-around winner. For more details, visit https://www.mitujjain.ac.in/.</p>
+
+       </div>
+      
+  </section>
+  
+  
+  <footer class="last">
+    <h1> &nbsp; ☏ Contact </h1>
+    <p class="text1">&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;Mahakal Institute of technology</p>
+    <p class="text1">&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;✆&nbsp;0734-4050900</p> 
+    <p class="text1">&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;✉&nbsp;mahakalgroupujjain@gmail.com</p> 
+  </footer>
+    
+</body>
+</html>

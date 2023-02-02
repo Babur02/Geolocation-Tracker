@@ -1,0 +1,272 @@
+.home{
+    color:black;
+    padding: 10px 10px ;
+
+
+}
+body{
+    font-family: SourceSansPro,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif;
+}
+.mit{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    margin: -14px 40px;
+}
+.college{
+    color: rgb(255, 254, 254);
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    margin: -14px 3px;
+    text-decoration: none;
+}
+
+
+
+.sitebranding{
+    background-color:#9d7d00;
+    margin: -15px;
+    height: 5vh;
+    position:sticky;
+}
+/* .space{
+   
+    padding: 0px -3px;
+    /* margin: -14px; 
+    
+   
+} */
+
+
+    
+
+.logo{
+    
+    padding: 7px 16px;
+    width: 24px;
+    margin: 4px -4px;
+    height: 1vh;
+    display: flex;
+    flex-direction: column;
+}    
+.navtag{
+    background-color: #0d3273;
+    margin: 17px -10px;
+    padding: 10px 5px;
+    position: sticky;
+    
+}
+.navlist{
+    width: 77%;
+    display: flex;
+    /* align-items: center; */
+    text-size-adjust: 20%;
+    padding: 10px 1216px;
+    margin: -43px;
+
+}
+
+.navlist li{
+    list-style: none;
+    padding: 6px 50px;
+
+}
+.navlist li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-size: 115%;
+    padding: 1px 8px;
+}
+.navlist li a:hover{
+    text-decoration: none;
+    color: grey;
+
+}
+.pages{
+    width: 77%;
+    display: flex;
+    /* align-items: center; */
+    text-size-adjust: 20%;
+    padding: 31px 1300px;
+    margin: -43px;
+}
+
+.pages li{
+    list-style: none;
+    padding: 0px 0px;
+    flex-direction: column;
+    display: table-column;
+    margin: -18px -253px;
+
+}
+.pages li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-size: 120%;
+    padding: 6px 15px;
+}
+.pages li a:hover{
+    text-decoration: none;
+    color: grey;
+
+}
+/* slideshow css */
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    width: 1499px;
+    position: relative;
+    margin: -14px -4px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  } 
+.size{
+    width: 100%;
+}
+.line{
+    display: flex;
+    flex-direction: column;
+    /* height:2vh */
+    color:white;
+    border-left: 2px solid white;
+    height: 20px;
+}
+.photo{
+    height:83vh;
+}
+.photo1{
+    height:83vh;
+    width:100%;
+}
+.big{
+    font-size: 40px;
+color: #cea600;
+font-family: SourceSansPro,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif;
+}
+.small{
+    margin: 7px 75px;
+    padding: 4px -10px;
+    width: 89%;
+    height: 50vh;
+    font-family: SourceSansPro,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif;
+}
+
+.section1{
+
+    margin: 46px 84px;
+    background-color: #0d3273;
+    width: 87%;
+    border: 3px solid#cea600;
+    padding: 10px;
+}
+.txt{
+    font-size: 20px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-family: SourceSansPro,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif;
+}
+
+.blog{
+    font-size: 40px;
+color: #cea600;
+    font-family: SourceSansPro,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif;
+}
+.section2{
+
+    margin: 46px 84px;
+    background-color: #0d3273;
+    width: 87%;
+    border: 3px solid#cea600;
+    padding: 10px;
+    height:100vh;
+}
+.last{
+    height:20vh;
+    background-color: #0d3273;
+    border:2px solid #cea600;
+    color: #cea600;
+    font-family: SourceSansPro,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif;
+    font-size: 1rem;
+}
+
+.text1{
+
+    margin:-2px 30px;
+}
